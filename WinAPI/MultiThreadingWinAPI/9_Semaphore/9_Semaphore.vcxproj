@@ -20,11 +20,10 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
-    <ProjectGuid>{55E435A5-DD7A-4A12-9938-14F9602A39BA}</ProjectGuid>
+    <ProjectGuid>{5104BE96-1595-42F8-82C0-65580C211F9F}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>My5CriticalSectionSpinLock</RootNamespace>
+    <RootNamespace>My9Semaphore</RootNamespace>
     <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
-    <ProjectName>7_CriticalSection_SpinLock</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -148,7 +147,7 @@
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="5_CriticalSection_SpinLock.cpp" />
+    <ClCompile Include="9_Semaphore.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
