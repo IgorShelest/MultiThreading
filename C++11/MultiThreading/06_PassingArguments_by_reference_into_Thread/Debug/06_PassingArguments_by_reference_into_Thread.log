@@ -1,0 +1,3 @@
+﻿  07_PassingArguments_by_reference_into_Thread.cpp
+d:\git\personalrepo\multithreading\c++11\multithreading\06_passingarguments_by_reference_into_thread\07_passingarguments_by_reference_into_thread.cpp(23): warning C4018: '<': signed/unsigned mismatch
+  06_PassingArguments_by_reference_into_Thread.vcxproj -> D:\Git\PersonalRepo\MultiThreading\C++11\MultiThreading\Debug\07_PassingArguments_by_reference_into_Thread.exe

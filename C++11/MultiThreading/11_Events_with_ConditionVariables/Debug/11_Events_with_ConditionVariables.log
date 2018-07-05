@@ -1,0 +1,4 @@
+﻿  11_Events_with_ConditionVariables.cpp
+d:\git\personalrepo\multithreading\c++11\multithreading\11_events_with_conditionvariables\11_events_with_conditionvariables.cpp(33): warning C4018: '<': signed/unsigned mismatch
+d:\git\personalrepo\multithreading\c++11\multithreading\11_events_with_conditionvariables\11_events_with_conditionvariables.cpp(50): warning C4018: '<': signed/unsigned mismatch
+  11_Events_with_ConditionVariables.vcxproj -> D:\Git\PersonalRepo\MultiThreading\C++11\MultiThreading\Debug\11_Events_with_ConditionVariables.exe
