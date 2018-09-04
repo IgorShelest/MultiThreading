@@ -23,7 +23,7 @@
     <ProjectGuid>{011822F5-DB53-48AF-B8BA-DAA09FD02F1D}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>My181NamedPipeClient</RootNamespace>
-    <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformVersion>10.0.17134.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">

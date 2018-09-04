@@ -1,7 +1,6 @@
-﻿  Skipping... (no relevant changes detected)
-  stdafx.cpp
-  14_ReadProcess.cpp
+﻿  stdafx.cpp
   14_CreateNamedSharedMemory.cpp
+  14_ReadProcess.cpp
+  14_WriteProcess.cpp
   Generating Code...
-cl : Command line warning D9028: minimal rebuild failure, reverting to normal build
   14_CreateNamedSharedMemory.vcxproj -> D:\Git\PersonalRepo\MultiThreading\WinAPI\MultiThreading\Debug\14_CreateNamedSharedMemory.exe

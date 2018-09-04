@@ -1,1 +1,3 @@
-﻿  18_1_Named_Pipe_Client.vcxproj -> D:\Git\PersonalRepo\MultiThreading\WinAPI\MultiThreading\Debug\18_1_Named_Pipe_Client.exe
+﻿  stdafx.cpp
+  18_1_Named_Pipe_Client.cpp
+  18_1_Named_Pipe_Client.vcxproj -> D:\Git\PersonalRepo\MultiThreading\WinAPI\MultiThreading\Debug\18_1_Named_Pipe_Client.exe

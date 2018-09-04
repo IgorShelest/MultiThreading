@@ -1,0 +1,4 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(391,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (21_Transactions_on_Named_Pipes.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  stdafx.cpp
+  21_Transactions_on_Named_Pipes.cpp
+  21_Transactions_on_Named_Pipes.vcxproj -> D:\Git\PersonalRepo\MultiThreading\WinAPI\MultiThreading\Debug\18_1_Transactions_on_Named_Pipes_Client.exe

@@ -23,7 +23,7 @@
     <ProjectGuid>{57A3A079-678B-4073-815A-C79090C83DDC}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>My08Mutex</RootNamespace>
-    <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformVersion>10.0.17134.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">

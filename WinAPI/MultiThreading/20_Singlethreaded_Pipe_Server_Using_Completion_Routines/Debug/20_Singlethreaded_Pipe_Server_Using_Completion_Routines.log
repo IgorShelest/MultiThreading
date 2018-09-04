@@ -1,0 +1,5 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(391,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (20_Singlethreaded_Pipe_Server_Using_Completion_Routines.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  stdafx.cpp
+  20_Singlethreaded_Pipe_Server_Using_Completion_Routines.cpp
+d:\git\personalrepo\multithreading\winapi\multithreading\20_singlethreaded_pipe_server_using_completion_routines\20_singlethreaded_pipe_server_using_completion_routines.cpp(103): warning C4477: 'wprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'HANDLE'
+  20_Singlethreaded_Pipe_Server_Using_Completion_Routines.vcxproj -> D:\Git\PersonalRepo\MultiThreading\WinAPI\MultiThreading\Debug\18_2_Singlethreaded_Pipe_Server_Using_Completion_Routines_Server.exe

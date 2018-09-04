@@ -23,8 +23,8 @@
     <ProjectGuid>{D6A59373-7C8F-4E20-9255-C7DD783409C3}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>My17ProcessesDataCopy</RootNamespace>
-    <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
-    <ProjectName>17_IPC_win_named_Event_and_Mutex</ProjectName>
+    <WindowsTargetPlatformVersion>10.0.17134.0</WindowsTargetPlatformVersion>
+    <ProjectName>17_IPC_with_named_Event_and_Mutex</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">

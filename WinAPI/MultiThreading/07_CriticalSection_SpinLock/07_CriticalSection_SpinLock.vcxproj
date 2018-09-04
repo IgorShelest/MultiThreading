@@ -23,7 +23,7 @@
     <ProjectGuid>{394C1D32-277A-421E-8DBD-A026839678F2}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>My07CriticalSectionSpinLock</RootNamespace>
-    <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformVersion>10.0.17134.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">

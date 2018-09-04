@@ -1,4 +1,4 @@
-﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(387,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (17_Processes_Data_Copy.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(391,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (17_IPC_win_named_Event_and_Mutex.vcxproj, 17_Processes_Data_Copy.vcxproj).  This can lead to incorrect clean and rebuild behavior.
   stdafx.cpp
   17_Processes_Data_Copy.cpp
-  17_Processes_Data_Copy.vcxproj -> D:\Git\PersonalRepo\MultiThreading\WinAPI\MultiThreading\Debug\17_IPC_win_named_Event_and_Mutex.exe
+  17_Processes_Data_Copy.vcxproj -> D:\Git\PersonalRepo\MultiThreading\WinAPI\MultiThreading\Debug\17_IPC_with_named_Event_and_Mutex.exe

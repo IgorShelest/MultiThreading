@@ -35,15 +35,25 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "15_AsynchronousProcedureCal
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "16_Thread_monitoring", "16_Thread_monitoring\16_Thread_monitoring.vcxproj", "{DC917785-DE88-4A4A-A89F-63407DE02D09}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "17_IPC_win_named_Event_and_Mutex", "17_Processes_Data_Copy\17_Processes_Data_Copy.vcxproj", "{D6A59373-7C8F-4E20-9255-C7DD783409C3}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "17_IPC_with_named_Event_and_Mutex", "17_Processes_Data_Copy\17_Processes_Data_Copy.vcxproj", "{D6A59373-7C8F-4E20-9255-C7DD783409C3}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "12_1_Named_Event", "12_1_Named_Event\12_1_Named_Event.vcxproj", "{8BDC3CE2-5782-4EC8-91B1-23DEF0D7BC04}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "08_1_Named_Mutex", "08_1_Named_Mutex\08_1_Named_Mutex.vcxproj", "{FCC8E288-0B01-46DF-92A2-2A1454DAB1BA}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "18_Multithreaded_Pipe_Server", "18_Multithreaded_Pipe_Server\18_Multithreaded_Pipe_Server.vcxproj", "{E14AA64B-18CC-426E-A5E1-331D3E876EB3}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "18_2_Multithreaded_Pipe_Server", "18_Multithreaded_Pipe_Server\18_Multithreaded_Pipe_Server.vcxproj", "{E14AA64B-18CC-426E-A5E1-331D3E876EB3}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "18_1_Named_Pipe_Client", "18_1_Named_Pipe_Client\18_1_Named_Pipe_Client.vcxproj", "{011822F5-DB53-48AF-B8BA-DAA09FD02F1D}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "18_2_Singlethreaded_Pipe_Server_Using_Overlapped_ I_O_Server", "19_Singlethreaded_Pipe_Server_Using_Overlapped_ I_O\19_Singlethreaded_Pipe_Server_Using_Overlapped_ I_O.vcxproj", "{69E0174F-F52F-42AE-ADDB-B2AA6F57950E}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "18_2_Singlethreaded_Pipe_Server_Using_Completion_Routines_Server", "20_Singlethreaded_Pipe_Server_Using_Completion_Routines\20_Singlethreaded_Pipe_Server_Using_Completion_Routines.vcxproj", "{6CE915B1-647B-422F-8F9C-CA1D8F5C4277}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "18_1_Transactions_on_Named_Pipes_Client", "21_Transactions_on_Named_Pipes\21_Transactions_on_Named_Pipes.vcxproj", "{3CACD789-D2EC-4F53-8EF5-FB0CDDAA8B1F}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "19_WinSock_Client", "19_WinSock_Client\19_WinSock_Client.vcxproj", "{58A8D419-53A4-43CE-9BA9-415E76B798BD}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "19_WinSock_Server", "19_WinSock_Server\19_WinSock_Server.vcxproj", "{BEC359D8-B029-4693-A6C6-C32FF009B116}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -221,6 +231,46 @@ Global
 		{011822F5-DB53-48AF-B8BA-DAA09FD02F1D}.Release|x64.Build.0 = Release|x64
 		{011822F5-DB53-48AF-B8BA-DAA09FD02F1D}.Release|x86.ActiveCfg = Release|Win32
 		{011822F5-DB53-48AF-B8BA-DAA09FD02F1D}.Release|x86.Build.0 = Release|Win32
+		{69E0174F-F52F-42AE-ADDB-B2AA6F57950E}.Debug|x64.ActiveCfg = Debug|x64
+		{69E0174F-F52F-42AE-ADDB-B2AA6F57950E}.Debug|x64.Build.0 = Debug|x64
+		{69E0174F-F52F-42AE-ADDB-B2AA6F57950E}.Debug|x86.ActiveCfg = Debug|Win32
+		{69E0174F-F52F-42AE-ADDB-B2AA6F57950E}.Debug|x86.Build.0 = Debug|Win32
+		{69E0174F-F52F-42AE-ADDB-B2AA6F57950E}.Release|x64.ActiveCfg = Release|x64
+		{69E0174F-F52F-42AE-ADDB-B2AA6F57950E}.Release|x64.Build.0 = Release|x64
+		{69E0174F-F52F-42AE-ADDB-B2AA6F57950E}.Release|x86.ActiveCfg = Release|Win32
+		{69E0174F-F52F-42AE-ADDB-B2AA6F57950E}.Release|x86.Build.0 = Release|Win32
+		{6CE915B1-647B-422F-8F9C-CA1D8F5C4277}.Debug|x64.ActiveCfg = Debug|x64
+		{6CE915B1-647B-422F-8F9C-CA1D8F5C4277}.Debug|x64.Build.0 = Debug|x64
+		{6CE915B1-647B-422F-8F9C-CA1D8F5C4277}.Debug|x86.ActiveCfg = Debug|Win32
+		{6CE915B1-647B-422F-8F9C-CA1D8F5C4277}.Debug|x86.Build.0 = Debug|Win32
+		{6CE915B1-647B-422F-8F9C-CA1D8F5C4277}.Release|x64.ActiveCfg = Release|x64
+		{6CE915B1-647B-422F-8F9C-CA1D8F5C4277}.Release|x64.Build.0 = Release|x64
+		{6CE915B1-647B-422F-8F9C-CA1D8F5C4277}.Release|x86.ActiveCfg = Release|Win32
+		{6CE915B1-647B-422F-8F9C-CA1D8F5C4277}.Release|x86.Build.0 = Release|Win32
+		{3CACD789-D2EC-4F53-8EF5-FB0CDDAA8B1F}.Debug|x64.ActiveCfg = Debug|x64
+		{3CACD789-D2EC-4F53-8EF5-FB0CDDAA8B1F}.Debug|x64.Build.0 = Debug|x64
+		{3CACD789-D2EC-4F53-8EF5-FB0CDDAA8B1F}.Debug|x86.ActiveCfg = Debug|Win32
+		{3CACD789-D2EC-4F53-8EF5-FB0CDDAA8B1F}.Debug|x86.Build.0 = Debug|Win32
+		{3CACD789-D2EC-4F53-8EF5-FB0CDDAA8B1F}.Release|x64.ActiveCfg = Release|x64
+		{3CACD789-D2EC-4F53-8EF5-FB0CDDAA8B1F}.Release|x64.Build.0 = Release|x64
+		{3CACD789-D2EC-4F53-8EF5-FB0CDDAA8B1F}.Release|x86.ActiveCfg = Release|Win32
+		{3CACD789-D2EC-4F53-8EF5-FB0CDDAA8B1F}.Release|x86.Build.0 = Release|Win32
+		{58A8D419-53A4-43CE-9BA9-415E76B798BD}.Debug|x64.ActiveCfg = Debug|x64
+		{58A8D419-53A4-43CE-9BA9-415E76B798BD}.Debug|x64.Build.0 = Debug|x64
+		{58A8D419-53A4-43CE-9BA9-415E76B798BD}.Debug|x86.ActiveCfg = Debug|Win32
+		{58A8D419-53A4-43CE-9BA9-415E76B798BD}.Debug|x86.Build.0 = Debug|Win32
+		{58A8D419-53A4-43CE-9BA9-415E76B798BD}.Release|x64.ActiveCfg = Release|x64
+		{58A8D419-53A4-43CE-9BA9-415E76B798BD}.Release|x64.Build.0 = Release|x64
+		{58A8D419-53A4-43CE-9BA9-415E76B798BD}.Release|x86.ActiveCfg = Release|Win32
+		{58A8D419-53A4-43CE-9BA9-415E76B798BD}.Release|x86.Build.0 = Release|Win32
+		{BEC359D8-B029-4693-A6C6-C32FF009B116}.Debug|x64.ActiveCfg = Debug|x64
+		{BEC359D8-B029-4693-A6C6-C32FF009B116}.Debug|x64.Build.0 = Debug|x64
+		{BEC359D8-B029-4693-A6C6-C32FF009B116}.Debug|x86.ActiveCfg = Debug|Win32
+		{BEC359D8-B029-4693-A6C6-C32FF009B116}.Debug|x86.Build.0 = Debug|Win32
+		{BEC359D8-B029-4693-A6C6-C32FF009B116}.Release|x64.ActiveCfg = Release|x64
+		{BEC359D8-B029-4693-A6C6-C32FF009B116}.Release|x64.Build.0 = Release|x64
+		{BEC359D8-B029-4693-A6C6-C32FF009B116}.Release|x86.ActiveCfg = Release|Win32
+		{BEC359D8-B029-4693-A6C6-C32FF009B116}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

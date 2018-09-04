@@ -1,2 +1,3 @@
-﻿  15_AsynchronousProcedureCall_with_WaitableTimers.cpp
+﻿  stdafx.cpp
+  15_AsynchronousProcedureCall_with_WaitableTimers.cpp
   15_AsynchronousProcedureCall_with_WaitableTimers.vcxproj -> D:\Git\PersonalRepo\MultiThreading\WinAPI\MultiThreading\Debug\15_AsynchronousProcedureCall_with_WaitableTimers.exe
